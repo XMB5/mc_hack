@@ -4,6 +4,9 @@
 In creative mode, double-tapping space bar toggles flight.
 We can modify the code so that in any game mode, including survival, we can toggle flight.
 
+## Goal
+`.fly on` -> allowing flying in survival mode by double-tapping space
+
 ## Hint
 `allowFlying` in `ClientPlayerEntity.java`
 
@@ -31,4 +34,3 @@ public static boolean chatMessageHook(String message) {
 
 ## Expand
 - persist setting after dying and respawning
-- bind to key (perhaps `v` or `b`)

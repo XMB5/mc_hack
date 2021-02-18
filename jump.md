@@ -1,8 +1,11 @@
 # Jump hack
 
 ## Background
-When the player jumps, the y-velocity is increased by a specific amount.
+When the player jumps, their y-velocity is increased by a specific amount.
 When the jump boost potion effect is active, this amount is increased.
+
+## Goal
+`.jump 3.0` -> increase jump velocity by a factor of 3 (will cause player to jump 9 times higher)
 
 ## Hint
 `LivingEntity.java jump() function`
