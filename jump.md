@@ -1,7 +1,7 @@
 # Jump hack
 
 ## Background
-When the player jumps, their y-velocity is increased by a specific amount.
+When the player jumps, their y-velocity is set to a specific amount.
 When the jump boost potion effect is active, this amount is increased.
 
 ## Goal
